@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ShoppingBag, Home } from 'lucide-react';
-import { NAV_LINKS } from '../constants';
+import { Menu, X, Home } from 'lucide-react';
+import { NAV_LINKS, LOGO_URL } from '../constants';
 
 export const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,9 +72,7 @@ export const Header: React.FC = () => {
             onClick={(e) => handleNavClick(e, '#hero')}
             className="flex items-center gap-2 group"
           >
-            <div className="bg-primary p-2 rounded-xl text-white group-hover:rotate-12 transition-transform">
-              <ShoppingBag size={24} />
-            </div>
+            <img src={LOGO_URL} alt="Inayah's Bakery Logo" className="h-10 w-10 group-hover:rotate-12 transition-transform" />
             <span className={`text-2xl font-bold tracking-tight ${isScrolled ? 'text-dark' : 'text-dark md:text-white'}`}>
               Inayah's <span className="text-primary">Bakery</span>
             </span>

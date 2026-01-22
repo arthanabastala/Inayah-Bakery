@@ -1,5 +1,6 @@
 import React from 'react';
-import { Instagram, Facebook, MapPin, Phone, Mail, ShoppingBag } from 'lucide-react';
+import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
+import { LOGO_URL } from '../constants';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,9 +9,8 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div className="col-span-1 md:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-primary p-1.5 rounded-lg text-white">
-                <ShoppingBag size={20} />
+            <div className="flex items-center gap-3 mb-4">
+              <img src={LOGO_URL} alt="Inayah's Bakery Logo" className="h-8 w-8" />
               </div>
               <span className="text-xl font-bold text-dark">
                 Inayah's <span className="text-primary">Bakery</span>
@@ -63,7 +63,6 @@ export const Footer: React.FC = () => {
         <div className="border-t border-gray-100 pt-8 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Inayah's Bakery. All rights reserved.</p>
         </div>
-      </div>
     </footer>
   );
 };
