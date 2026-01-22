@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { ProductCatalog } from './components/ProductCatalog';
@@ -20,6 +21,7 @@ function App() {
         <Testimonials />
       </main>
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
