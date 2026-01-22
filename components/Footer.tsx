@@ -11,10 +11,10 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <img src={LOGO_URL} alt="Inayah's Bakery Logo" className="h-8 w-8" />
-              </div>
               <span className="text-xl font-bold text-dark">
                 Inayah's <span className="text-primary">Bakery</span>
               </span>
+              </div>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
               Menghadirkan kebahagiaan di meja makan Anda lewat setiap sajian. Segar, lokal, dan lezat.

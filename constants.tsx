@@ -2,7 +2,7 @@ import React from 'react';
 import { Product, Testimonial } from './types';
 
 export const WHATSAPP_NUMBER = "6283877035323"; // Updated number
-export const LOGO_URL = 'logo-putih.png';
+export const LOGO_URL = 'rounded.png';
 // Navigation Links - Mapped to Section IDs
 export const NAV_LINKS = [
   { name: 'Home', href: '#hero' },         // Maps to <Hero id="hero" />
