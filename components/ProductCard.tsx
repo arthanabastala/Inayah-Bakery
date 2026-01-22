@@ -38,11 +38,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         {product.isPopular && (
-          <div className="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+          <div className="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg shadow-rose-500/30">
             BESTSELLER
           </div>
         )}
-        <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur px-4 py-1.5 rounded-full text-sm font-bold text-primary shadow-sm border border-orange-100">
+        <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur px-4 py-1.5 rounded-full text-sm font-bold text-primary shadow-sm border border-rose-100">
           IDR {currentPrice.toLocaleString()}
         </div>
       </div>

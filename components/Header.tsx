@@ -142,7 +142,7 @@ export const Header: React.FC = () => {
           <a 
             href="#menu" 
             onClick={(e) => handleNavClick(e, '#menu')}
-            className="bg-primary text-white text-center py-3 rounded-xl font-bold shadow-orange-500/20"
+            className="bg-primary hover:bg-rose-600 text-white px-5 py-2 rounded-full font-medium transition-colors shadow-lg shadow-rose-500/20"
           >
             Order Sekarang
           </a>

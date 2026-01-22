@@ -14,7 +14,7 @@ export const Testimonials: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {TESTIMONIALS.map((t) => (
             <div key={t.id} className="bg-white p-8 rounded-2xl shadow-sm relative">
-              <Quote className="absolute top-6 right-6 text-orange-100" size={48} />
+              <Quote className="absolute top-6 right-6 text-rose-100" size={48} />
               <p className="text-gray-600 mb-6 relative z-10 italic">"{t.comment}"</p>
               <div className="flex items-center gap-4">
                 <img 

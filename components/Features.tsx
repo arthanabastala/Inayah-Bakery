@@ -35,8 +35,8 @@ export const Features: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature) => (
-            <div key={feature.id} className="text-center p-6 rounded-2xl bg-orange-50/50 hover:bg-orange-50 transition-colors duration-300">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 text-primary mb-6">
+            <div key={feature.id} className="text-center p-6 rounded-2xl bg-rose-50/50 hover:bg-rose-50 transition-colors duration-300">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-rose-100 text-primary mb-6">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold text-dark mb-3">{feature.title}</h3>
