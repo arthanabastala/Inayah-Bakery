@@ -46,7 +46,7 @@ export const Footer: React.FC = () => {
                 <span>nurulelsafadilah@gmail.com</span>
               </li>
               <li className="flex gap-3">
-                
+
               </li>
             </ul>
           </div>
@@ -55,10 +55,11 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-dark mb-4">Jam Operasional</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li className="flex justify-between items-start">
+              <li className="flex items-center justify-center h-40 border">
                 <span className="shrink-0">Setiap Hari</span>
                 <span className="font-semibold text-dark text-right">00.00 – 24.00<br/>(Buka 24 Jam)</span>
               </li>
+              <li className="flex gap-3"></li>
             </ul>
           </div>
         </div>
