@@ -68,7 +68,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kue kering tradisional berbahan dasar kacang tanah pilihan, gurih dan renyah.',
     price: 55000,
     category: 'Kue Kacang',
-    imageUrl: 'https://picsum.photos/seed/kuekacang/600/400',
+    imageUrl: '/kue-kacang.png',
     isPopular: true,
     variants: STANDARD_VARIANTS
   },
@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kue bangkit yang lumer di mulut dengan aroma dan rasa mocca yang khas.',
     price: 55000,
     category: 'Kue Kacang',
-    imageUrl: 'https://picsum.photos/seed/bangkitmocca/600/400',
+    imageUrl: '/bangkit-mocca.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -87,7 +87,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kue tradisional yang sangat rapuh dan lumer, dengan rasa susu dan santan yang gurih.',
     price: 55000,
     category: 'Kue Kacang',
-    imageUrl: 'https://picsum.photos/seed/bangkitsusu/600/400',
+    imageUrl: '/bangkit-susu.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -96,7 +96,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cita rasa kelapa sangrai yang kuat berpadu dengan manisnya gula dalam setiap gigitan.',
     price: 55000,
     category: 'Kue Kacang',
-    imageUrl: 'https://picsum.photos/seed/sagon/600/400',
+    imageUrl: '/kue-kacang.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -105,7 +105,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kue semprit klasik berbentuk bunga dahlia dengan hiasan selai/chocochip di tengahnya.',
     price: 55000,
     category: 'Kue Kacang',
-    imageUrl: 'https://picsum.photos/seed/dahlia/600/400',
+    imageUrl: '/kue-dahlia.png',
     variants: STANDARD_VARIANTS
   },
 
@@ -116,7 +116,7 @@ export const PRODUCTS: Product[] = [
     description: 'Putri salju berbentuk bulan sabit yang dibalut gula halus dingin, lembut dan manis.',
     price: 55000,
     category: 'Varian Lembut',
-    imageUrl: 'https://picsum.photos/seed/kuesalju/600/400',
+    imageUrl: '/kue-salju.png',
     isPopular: true,
     variants: STANDARD_VARIANTS
   },
@@ -126,7 +126,7 @@ export const PRODUCTS: Product[] = [
     description: 'Varian kue salju dengan aroma pandan asli yang wangi dan menenangkan.',
     price: 55000,
     category: 'Varian Lembut',
-    imageUrl: 'https://picsum.photos/seed/saljupandan/600/400',
+    imageUrl: '/salju-pandan.png',
     variants: STANDARD_VARIANTS
   },
 
@@ -137,7 +137,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cookies mentega dengan isian selai strawberry di tengahnya.',
     price: 55000,
     category: 'Thumbprint Cookies',
-    imageUrl: 'https://picsum.photos/seed/thumbprintstraw/600/400',
+    imageUrl: '/thumbprint-strawberry.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -146,7 +146,7 @@ export const PRODUCTS: Product[] = [
     description: 'Perpaduan cookies renyah dengan filling coklat leleh yang nikmat.',
     price: 55000,
     category: 'Thumbprint Cookies',
-    imageUrl: 'https://picsum.photos/seed/thumbprintcoklat/600/400',
+    imageUrl: '/thumbprint-coklat.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -155,7 +155,7 @@ export const PRODUCTS: Product[] = [
     description: 'Rasa segar selai blueberry menyeimbangkan manisnya cookies mentega.',
     price: 55000,
     category: 'Thumbprint Cookies',
-    imageUrl: 'https://picsum.photos/seed/thumbprintblue/600/400',
+    imageUrl: '/thumbprint-blueberry.png',
     variants: STANDARD_VARIANTS
   },
 
@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kombinasi unik rasa coklat pekat dengan sentuhan rasa buah berry.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/chocoberry/600/400',
+    imageUrl: '/choco-berry.png',
     variants: PREMIUM_VARIANTS
   },
   {
@@ -175,7 +175,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cookies coklat klasik dengan campuran kacang cincang yang renyah.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/coklatkacang/600/400',
+    imageUrl: '/coklat-kacang.png',
     variants: PREMIUM_VARIANTS
   },
   {
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kue kering coklat dengan tekstur crunchy dari sereal coco crunch.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/cococrunch/600/400',
+    imageUrl: '/coco-crunch.png',
     variants: PREMIUM_VARIANTS
   },
   {
@@ -193,7 +193,7 @@ export const PRODUCTS: Product[] = [
     description: 'Sensasi makan brownies dalam bentuk cookies kering bertabur kacang.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/brownieskacang/600/400',
+    imageUrl: '/brownies-kacang.png',
     variants: PREMIUM_VARIANTS
   },
   {
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cookies berbentuk bola yang dibalur mesises coklat berkualitas.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/bolacoklat/600/400',
+    imageUrl: '/bola-bola-coklat.png',
     variants: PREMIUM_VARIANTS
   },
   {
@@ -211,7 +211,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cookies vanilla renyah bertabur butiran choco chips yang melimpah.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/chocochip/600/400',
+    imageUrl: '/choco-chip.png',
     isPopular: true,
     variants: PREMIUM_VARIANTS
   },
@@ -221,7 +221,7 @@ export const PRODUCTS: Product[] = [
     description: 'Lidah kucing tipis renyah disajikan dengan selai Nutella premium.',
     price: 60000,
     category: 'Coklat',
-    imageUrl: 'https://picsum.photos/seed/lidahkucing/600/400',
+    imageUrl: '/lidah-kucing-nutella.png',
     variants: PREMIUM_VARIANTS
   },
 
@@ -232,7 +232,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kue kering bola dengan isian kacang tumbuk yang manis dan gurih.',
     price: 55000,
     category: 'Isian Spesial',
-    imageUrl: 'https://picsum.photos/seed/bolakacang/600/400',
+    imageUrl: '/bola-bola-kacang.png',
     variants: STANDARD_VARIANTS // 55k/110k
   },
   {
@@ -241,7 +241,7 @@ export const PRODUCTS: Product[] = [
     description: 'Perpaduan manis alami kurma dan lapisan coklat yang mewah.',
     price: 60000,
     category: 'Isian Spesial',
-    imageUrl: 'https://picsum.photos/seed/kurmacoklat/600/400',
+    imageUrl: '/kurma-coklat.png',
     variants: PREMIUM_VARIANTS // 60k/120k
   },
   {
@@ -250,7 +250,7 @@ export const PRODUCTS: Product[] = [
     description: 'Cookies mentega renyah dengan topping tepung panir dan choco chips.',
     price: 55000,
     category: 'Isian Spesial',
-    imageUrl: 'https://picsum.photos/seed/jandagenit/600/400',
+    imageUrl: '/janda-genit.png',
     isPopular: true,
     variants: STANDARD_VARIANTS // 55k/110k
   }
