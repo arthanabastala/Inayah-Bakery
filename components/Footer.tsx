@@ -45,6 +45,9 @@ export const Footer: React.FC = () => {
                 <Mail size={18} className="text-primary shrink-0" />
                 <span>nurulelsafadilah@gmail.com</span>
               </li>
+              <li className="flex gap-3">
+                
+              </li>
             </ul>
           </div>
 
