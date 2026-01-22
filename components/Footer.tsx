@@ -3,6 +3,14 @@ import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
 import { LOGO_URL } from '../constants';
 
 export const Footer: React.FC = () => {
+  const address = "Perdamaian dusun ix kec.binjai kab.langkat. Belakang Bengkel Prayoga";
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+  const phoneNumber = "+6283877035323";
+  const email = "nurulelsafadilah@gmail.com";
+  const cleanPhoneNumber = phoneNumber.replace('+', '').replace(/\s/g, '');
+  const whatsappUrl = `https://wa.me/${cleanPhoneNumber}`;
+
+
   return (
     <footer className="bg-white border-t border-gray-100 pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
@@ -33,16 +41,22 @@ export const Footer: React.FC = () => {
             <h4 className="font-bold text-dark mb-4">Contact Us</h4>
             <ul className="space-y-4 text-sm text-gray-500">
               <li className="flex gap-3">
-                <MapPin size={18} className="text-primary shrink-0" />
-                <span>Perdamaian dusun ix kec.binjai kab.langkat. Belakang Bengkel Prayoga</span>
+                <MapPin size={18} className="text-primary shrink-0 mt-1" />
+                <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  {address}
+                </a>
               </li>
               <li className="flex gap-3">
-                <Phone size={18} className="text-primary shrink-0" />
-                <span>+62 838 7703 5323</span>
+                <Phone size={18} className="text-primary shrink-0 mt-1" />
+                <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  {phoneNumber}
+                </a>
               </li>
               <li className="flex gap-3">
-                <Mail size={18} className="text-primary shrink-0" />
-                <span>nurulelsafadilah@gmail.com</span>
+                <Mail size={18} className="text-primary shrink-0 mt-1" />
+                <a href={`mailto:${email}`} className="hover:text-primary transition-colors">
+                  {email}
+                </a>
               </li>
             </ul>
           </div>
