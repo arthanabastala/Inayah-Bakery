@@ -14,7 +14,6 @@ export const Footer: React.FC = () => {
               <span className="text-xl font-bold text-dark">
                 Inayah's <span className="text-primary">Bakery</span>
               </span>
-              </div>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed mb-6">
               Menghadirkan kebahagiaan di meja makan Anda lewat setiap sajian. Segar, lokal, dan lezat.
@@ -45,9 +44,6 @@ export const Footer: React.FC = () => {
                 <Mail size={18} className="text-primary shrink-0" />
                 <span>nurulelsafadilah@gmail.com</span>
               </li>
-              <li className="flex gap-3">
-                
-              </li>
             </ul>
           </div>
 
@@ -62,11 +58,11 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        <li className="flex gap-3"></li>
         
         <div className="border-t border-gray-100 pt-8 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Inayah's Bakery. All rights reserved.</p>
         </div>
+      </div>
     </footer>
   );
 };
