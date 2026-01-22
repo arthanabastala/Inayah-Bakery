@@ -55,7 +55,7 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-dark mb-4">Jam Operasional</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li className="flex items-center justify-center h-40 border">
+              <li className="flex justify-center items-center">
                 <span className="shrink-0">Setiap Hari</span>
                 <span className="font-semibold text-dark text-right">00.00 – 24.00<br/>(Buka 24 Jam)</span>
               </li>
