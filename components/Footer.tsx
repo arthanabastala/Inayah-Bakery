@@ -53,16 +53,17 @@ export const Footer: React.FC = () => {
 
           {/* Hours */}
           <div>
-            <h4 className="font-bold text-dark mb-4">Jam Operasional</h4>
+          <h4 className="font-bold text-dark mb-4 text-center">Jam Operasional</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li className="flex justify-center items-center">
-                <span className="shrink-0">Setiap Hari</span>
-                <span className="font-semibold text-dark text-right">00.00 – 24.00<br/>(Buka 24 Jam)</span>
+              <li className="flex flex-col items-center justify-center text-center gap-1">
+                <span>Setiap Hari</span>
+                <span className="font-semibold text-dark">
+                  00.00 – 24.00 <br />(Buka 24 Jam)
+                </span>
               </li>
-              <li className="flex gap-3"></li>
             </ul>
           </div>
-        </div>
+
         
         <div className="border-t border-gray-100 pt-8 text-center text-sm text-gray-400">
           <p>&copy; {new Date().getFullYear()} Inayah's Bakery. All rights reserved.</p>
