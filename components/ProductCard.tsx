@@ -17,13 +17,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const currentPrice = selectedVariant ? selectedVariant.price : product.price;
 
   const handleOrder = () => {
-    let message = `Halo, Saya mau memesan : ${product.name}`;
+    let message = `Halo, Saya mau order : ${product.name}`;
     
     if (selectedVariant) {
-      message += `, Ukuran ${selectedVariant.label}`;
+      message += `, Size ${selectedVariant.label}`;
     }
     
-    message += `, Harga  Rp.${currentPrice.toLocaleString()}, Apakah tersedia?`;
+    message += `, Price IDR ${currentPrice.toLocaleString()}, Apakah tersedia?`;
     
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
