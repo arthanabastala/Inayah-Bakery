@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     description: 'Nastar klasik dengan isian selai nanas homemade dan topping keju parut melimpah.',
     price: 55000,
     category: 'Nastar',
-    imageUrl: '/Nastar Keju.png',
+    imageUrl: '/nastar-keju.png',
     isPopular: true,
     variants: STANDARD_VARIANTS
   },
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     description: 'Nastar legendaris dengan adonan butter wisman dan selai nanas manis asam yang pas.',
     price: 55000,
     category: 'Nastar',
-    imageUrl: '/Nastar Original.png',
+    imageUrl: '/nastar-original.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -48,7 +48,7 @@ export const PRODUCTS: Product[] = [
     description: 'Kreasi unik nastar berbentuk labu dengan tekstur lembut dan rasa otentik.',
     price: 55000,
     category: 'Nastar',
-    imageUrl: '/Nastar Labu.png',
+    imageUrl: '/nastar-labu.png',
     variants: STANDARD_VARIANTS
   },
   {
@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
     description: 'Variasi bentuk nastar gulung yang cantik dengan rasio selai dan kulit yang sempurna.',
     price: 55000,
     category: 'Nastar',
-    imageUrl: '/Nastar Gulung.png',
+    imageUrl: '/nastar-gulung.png',
     variants: STANDARD_VARIANTS
   },
 
